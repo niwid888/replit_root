@@ -16,6 +16,12 @@ unzip root.zip
 tar -xvf root.tar.xz
 
 ./dist/proot -S . /bin/bash
+
+apt-get update
+
+apt-get -y install wget
+
+apt-get -y install sudo
   
 **𝐈𝐟 𝐮 𝐧𝐨𝐭 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐝𝐨 𝗴𝗶𝘃𝗲𝗻 𝗮𝗯𝗼𝘃𝗲 𝐭𝐡𝐞𝐧**
 
